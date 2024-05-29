@@ -1,23 +1,34 @@
 import Toggle from "../Toggle/Toggle";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div>
-      <div>
-        <div>Kohantika</div>
+    <header className="header">
+      <div className="n-left">
+        <div className="n-name">Kohantika</div>
         <Toggle />
       </div>
-      <div>
-        <div>
-          <a href="">Home</a>
-          <a href="">Services</a>
-          <a href="">Experience</a>
-          <a href="">Portfolio</a>
-          <a href="">Testimonials</a>
-        </div>
-      </div>
-      <button>Contact</button>
-    </div>
+      <nav>
+        <ul className="navbar">
+          <li class="nav-item">
+            <a href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="">Testimonials</a>
+          </li>
+        </ul>
+      </nav>
+      <button className="n-button">Contact</button>
+    </header>
   );
 }
 
