@@ -1,0 +1,19 @@
+h1 {
+    font-size: 3rem;
+    padding: 20px 0px 50px 0px;
+}
+
+.skills {
+    min-height: 100vh;
+    margin: 0px 150px;
+}
+
+.progress-cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 70px;
+    column-gap: 200px;
+}
