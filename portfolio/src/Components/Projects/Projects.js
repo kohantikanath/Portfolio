@@ -1,5 +1,5 @@
 import Project1 from "../../Images/project1.png";
-import Ecommerce from "../../Images/ecommerce.png";
+import Project2 from "../../Images/project2.png";
 import MusicApp from "../../Images/musicapp.png";
 import HOC from "../../Images/hoc.png";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -35,7 +35,7 @@ function Projects() {
           </SwiperSlide>
           <SwiperSlide>
             <a href="">
-              <img src={Ecommerce} alt="Ecommerce Project" />
+              <img src={Project2} alt="Ecommerce Project" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
