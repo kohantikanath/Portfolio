@@ -1,0 +1,45 @@
+.about {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.about h1 {
+    margin: 50px;
+}
+
+.abt-cont {
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.abt-left {
+    width: 50%;
+    font-size: 1.3rem;
+    color: rgb(83, 83, 83);
+    line-height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clouds {
+    position: relative;
+    top: -80px;
+    left: 100px;
+    animation: float 2s infinite alternate-reverse;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
