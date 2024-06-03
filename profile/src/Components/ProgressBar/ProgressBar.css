@@ -1,0 +1,38 @@
+.cont {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.progress {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    background: conic-gradient(#ba2ffb 3.6deg, rgb(240, 240, 240) 0deg);
+}
+
+.txt {
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.cont p {
+    margin-top: 50px;
+    font-size: 2rem;
+}
