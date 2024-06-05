@@ -1,7 +1,8 @@
 import Project1 from "../../Images/project1.png";
 import Project2 from "../../Images/project2.png";
-import MusicApp from "../../Images/musicapp.png";
-import HOC from "../../Images/hoc.png";
+import Project3 from "../../Images/project3.png";
+import Project4 from "../../Images/project4.png";
+import Project5 from "../../Images/project5.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "./Projects.css";
@@ -30,22 +31,27 @@ function Projects() {
         >
           <SwiperSlide>
             <a href="">
-              <img src={Project1} alt="Sidebar Project" />
+              <img src={Project1} alt="Mario Game Project" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
             <a href="">
-              <img src={Project2} alt="Ecommerce Project" />
+              <img src={Project2} alt="Web scrapper Project" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
             <a href="">
-              <img src={MusicApp} alt="Music App Project" />
+              <img src={Project3} alt="Image Editor Project" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
             <a href="">
-              <img src={HOC} alt="HOC Project" />
+              <img src={Project4} alt="Quizz App Project" />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="">
+              <img src={Project5} alt="Vehical management system Project" />
             </a>
           </SwiperSlide>
         </Swiper>
