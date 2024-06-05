@@ -24,9 +24,15 @@ function Intro() {
         </span>
         <button className="button">Hire Me</button>
         <div className="icons">
-          <Insta className="i"/>
-          <LinkedIn className="i"/>
-          <GitHub className="i"/>
+          <a href="">
+            <Insta className="i"/>
+          </a>
+          <a href="https://www.linkedin.com/in/kohantika-nath-25b023283/">
+            <LinkedIn className="i"/>
+          </a>
+          <a href="https://github.com/kohantikanath">
+            <GitHub className="i"/>
+          </a>
         </div>
       </div>
       <div className="i-right">
