@@ -1,4 +1,4 @@
-.about {
+/* .about {
     height: 80vh;
     width: 100%;
     display: flex;
@@ -40,6 +40,51 @@
     }
     100% {
         transform: translateY(0px);
+    }
+}
+ */
+ .about {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.about h1 {
+    margin: 3.125rem; /* 50px to 3.125rem */
+}
+
+.abt-cont {
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.abt-left {
+    width: 50%;
+    font-size: 1.3rem;
+    color: rgb(83, 83, 83);
+    line-height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clouds {
+    position: relative;
+    top: -5rem; /* -80px to -5rem */
+    left: 6.25rem; /* 100px to 6.25rem */
+    animation: float 2s infinite alternate-reverse;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-3.75rem); /* -60px to -3.75rem */
+    }
+    100% {
+        transform: translateY(0rem);
     }
 }
 

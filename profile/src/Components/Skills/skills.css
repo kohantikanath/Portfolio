@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     font-size: 3rem;
     padding: 20px 0px 50px 0px;
 }
@@ -16,4 +16,23 @@ h1 {
     align-items: center;
     row-gap: 70px;
     column-gap: 200px;
+} */
+h1 {
+    font-size: 3rem;
+    padding: 1.25rem 0 3.125rem 0; /* 20px to 1.25rem, 50px to 3.125rem */
+}
+
+.skills {
+    min-height: 100vh;
+    margin: 0 9.375rem; /* 150px to 9.375rem */
+}
+
+.progress-cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 4.375rem; /* 70px to 4.375rem */
+    column-gap: 12.5rem; /* 200px to 12.5rem */
 }
