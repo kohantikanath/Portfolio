@@ -2,6 +2,10 @@
     height: 10vh;
     display: flex;
     justify-content:space-between;
+    position: fixed;
+    /* background-color: white; */
+    top: 0;
+    z-index: 1000;
 }
 
 .n-left{
@@ -22,6 +26,7 @@
     align-items:center;
     justify-items:center;
     font-weight:400;
+    margin-left: 900px;
 }
 
 .n-list{
