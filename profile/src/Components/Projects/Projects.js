@@ -30,22 +30,22 @@ function Projects() {
           modules={[Autoplay]}
         >
           <SwiperSlide>
-            <a href="">
+            <a href="https://github.com/kohantikanath/Mario-Game">
               <img src={Project1} alt="Mario Game Project" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="https://github.com/kohantikanath/WebScrapper">
               <img src={Project2} alt="Web scrapper Project" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="https://github.com/kohantikanath/ImageEditor/tree/main/imageEditor">
               <img src={Project3} alt="Image Editor Project" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <a href="https://github.com/kohantikanath/Quiz_App">
               <img src={Project4} alt="Quizz App Project" />
             </a>
           </SwiperSlide>
