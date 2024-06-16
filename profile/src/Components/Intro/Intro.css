@@ -161,6 +161,7 @@
   height: 90vh;
   width: 100%;
   display: flex;
+  margin-top: 4rem;
 }
 
 .i-right {

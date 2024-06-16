@@ -24,7 +24,7 @@ h1 {
 
 .skills {
     min-height: 100vh;
-    margin: 0 9.375rem; /* 150px to 9.375rem */
+    padding-top: 4rem; /* 150px to 9.375rem */
 }
 
 .progress-cont {

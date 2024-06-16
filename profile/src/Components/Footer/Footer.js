@@ -1,6 +1,5 @@
 import Wave from "../../Images/wave.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import FB from "@iconscout/react-unicons/icons/uil-facebook";
+import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin";
 import GitHub from "@iconscout/react-unicons/icons/uil-github";
 import "./Footer.css"
 
@@ -11,9 +10,12 @@ function Footer() {
       <div className="f-content">
         <span>kohan.nath@gmail.com</span>
         <div className="f-icons">
-          <Insta color="white" size="3rem" />
-          <FB color="white" size="3rem" />
-          <GitHub color="white" size="3rem" />
+          <a href="https://www.linkedin.com/in/kohantika-nath-25b023283/">
+            <LinkedIn color="white" size="3rem"/>
+          </a>
+          <a href="https://github.com/kohantikanath">
+            <GitHub color="white" size="3rem"/>
+          </a>
         </div>
       </div>
     </div>

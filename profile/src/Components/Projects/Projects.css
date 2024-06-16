@@ -27,6 +27,7 @@
 } */
 .projects {
     height: 100vh;
+    padding-top: 2rem;
 }
 
 .projects>p {
@@ -42,6 +43,7 @@
 
 .project-slider {
     height: 70vh;
+    width: 100%;
     display: flex;
     align-items: center;
 }

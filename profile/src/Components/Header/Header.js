@@ -23,7 +23,7 @@ function Navbar() {
             </li>
           </ul>
         </nav>
-        <button className="n-button">Contact</button>
+        <button className="n-button"><a href="#contact">Contact</a></button>
       </div>
     </div>
   );

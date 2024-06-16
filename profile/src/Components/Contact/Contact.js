@@ -2,7 +2,7 @@ import "./Contact.css"
 
 function Contact() {
     return (
-      <div className="form">
+      <div className="form" id="contact">
         <div className="f-left">
           <div className="f-text">
             <span>Get in touch</span>
